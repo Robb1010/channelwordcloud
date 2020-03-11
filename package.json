@@ -1,0 +1,21 @@
+{
+  "name": "channelwordcloud",
+  "version": "1.0.0",
+  "description": "Youtube Channel Videos Word Cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js"
+  },
+  "author": "Robb",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "node-fetch": "*",
+    "nodemon": "^1.19.3",
+    "pg": "*",
+    "vuewordcloud": "^18.7.11"
+  }
+}
