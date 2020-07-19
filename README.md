@@ -2,7 +2,7 @@
 
 Youtube Channel Word Cloud Generator
 
-# Howto
+# How to
 
 Copy and paste any youtube channel link. 
 Eg: https://www.youtube.com/user/Computerphile  or  https://www.youtube.com/channel/UC5UAwBUum7CPN5buc-_N1Fw
