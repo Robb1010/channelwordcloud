@@ -1,29 +1,7 @@
-# client
-
-## Project setup
+# Channel World Cloud
 ```
-npm install
+This project was made to illustrate use of external API and an external database in order to gather, store and manage data
 ```
-
-### Compiles and hot-reloads for development
+Copy and paste a youtube channel link or just type in the username associated to a channel and the app will create and display a word cloud made out of the words found in the past 50, 100, 150 or 200 videos of the channel
 ```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Run your tests
-```
-npm run test
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The data is then stored in a PostgreSQL database where it can be accessed again if the same query is executed. This reduces the stress on the API, which is metered. Upon a query, the app will check the database first. If the query data is already there and not older than 48 hours, it will display that data. Otherwise, it will grab the data from Youtube's API and store it in the DB before displaying it
